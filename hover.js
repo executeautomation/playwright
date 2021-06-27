@@ -20,6 +20,7 @@ const playwright = require('playwright');
     await page.keyboard.press('Enter', {delay:2000});
 
     await page.waitForSelector("input[id=Initial]");
+    await page.keyboard.press('Enter', {delay:2000});
 
     //hover
     await page.hover("[id='Automation Tools']");
