@@ -11,7 +11,7 @@ const playwright = require('playwright');
     const page = await context.newPage();
     await page.setViewport({
         width:1440,
-        height: 9000
+        height: 9000 
     })
 
     await page.goto('http://executeautomation.com/demosite/Login.html');
